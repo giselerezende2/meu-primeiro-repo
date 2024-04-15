@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Login </title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="imagens/favicon2.ico">
+    <title>Cadastro</title>
 </head>
 
 <body>
@@ -19,39 +19,41 @@
                 </li>
                 <li>Simulador</li>
                 <li>|</li>
-                <li class="agora">
+                <li>
                     <a href="login.html">Login</a>
                 </li>
-                <li>
-                    <a href="cadastro.html">Cadastro</a>
-                </li>
+                <li class="agora"> <a href="cadastro.html">Cadastro</a></li>
             </ul>
         </div>
     </div>
 
 
-
-
-    <div class="login">
+    <div class="cadastro">
         <div class="container">
             <div class="card">
-                <h2>Olá de Volta!</h2>
+                <h2>Bem vindo!</h2>
                 <div class="formulario">
                     <div class="campo">
-                        <label>Email: </label>
-                        <input type="text" placeholder="Digite seu email"><br>
+                        <label class="label">Nome: </label>
+                        <input type="text" placeholder="Seu email"><br>
                     </div>
                     <div class="campo">
-                        <label>Senha: </label>
-                        <input type="password" placeholder="Digite sua senha"><br>
+                        <label class="label">Email: </label>
+                        <input type="text" placeholder="meuemail@provedor.com"><br>
                     </div>
-                    <button onclick="entrar">Entrar</button>
+                    <div class="campo">
+                        <label class="label">Senha: </label>
+                        <input type="password" placeholder="*********"><br>
+                    </div>
+                    <div class="campo">
+                        <label class="label">Confirmação de Senha: </label>
+                        <input type="password" placeholder="**********"><br>
+                    </div>
+                    <button onclick="entrar">Cadastrar</button>
                 </div>
             </div>
         </div>
     </div>
-
-
 
 
     <div class="footer">
